@@ -1,0 +1,11 @@
+# Create a new branch
+git checkout -b fix-workflow
+
+# Commit the changes
+git add .github/workflows/main.yml
+git commit -m "Fix workflow configuration for CI/CD pipeline"
+
+# Push the branch
+git push origin fix-workflow
+
+# Create a pull request on GitHub
